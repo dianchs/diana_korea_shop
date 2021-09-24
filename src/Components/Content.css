@@ -1,0 +1,117 @@
+.bunner{
+    background: url('https://i1.wallbox.ru/wallpapers/main2/201721/odezda-vesalka.jpg') bottom / cover;
+    width: 100%;
+    height: 100vh;
+    transition: 1.5s;
+}
+.bunner:hover{
+    background: url('https://blog.luxxy.com/wp-content/uploads/2020/05/korejskij-stil-v-odezhde.jpg') top / cover;
+    width: 100%;
+    height: 99vh;
+    transition: 1.5s;
+}
+.bunner h1{
+    color: black;
+    text-align: left;
+    width: 50%;
+    padding-top: 210px;
+    padding-left: 70px;
+}
+.bunner:hover h1{
+    color: white;
+}
+
+
+.bunner1{
+    background: url('https://img2.goodfon.ru/wallpaper/nbig/f/be/raznoe-chemodan-veschi-odezhda.jpg') bottom / cover;
+    width: 100%;
+    height: 100vh;
+    transition: 1.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightblue;
+}
+.bunner1:hover{
+    background: url('https://img2.akspic.ru/originals/3/6/2/4/4/144263-oficialnaya_odezhda-smoking-podkast-anonimnye_narkomany-kostyum-1920x1080.jpg') top / cover;
+    width: 100%;
+    height: 99vh;
+    transition: 1.5s;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.bunner1 h1{
+    width: 54%;
+}
+
+
+.bunner2{
+    background: url('https://p4.wallpaperbetter.com/wallpaper/920/35/812/anime-anime-girls-pink-background-streetwear-school-uniform-hd-wallpaper-preview.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+    transition: 1.5s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.bunner2:hover{
+    background: url('https://image.freepik.com/free-photo/top-view-accessoires-to-travel-with-man-clothing-concept-shirt-jean-mobile-phone-on-wooden-background-watch-sunglasses-and-shoes-on-wood-table_1921-82.jpg') top / cover;
+    width: 100%;
+    height: 100vh;
+    transition: 1.5s;
+    color: rgb(255, 255, 255);
+}
+.bunner2 h1{
+    width: 70%;
+}
+.bunner2 h2{
+    width: 70%;
+}
+
+
+.bunner3{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 25px 0;
+    position: fixed;
+}
+.nav h2{
+    margin: 0;
+}
+
+.nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.nav ul li{
+    font-size: 22px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
